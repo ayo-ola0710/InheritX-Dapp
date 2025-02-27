@@ -38,7 +38,7 @@ export default function FileUpload() {
       <label className=" text-white">Upload an attachment (Optional)</label>
 
       <div
-        className="w-[65%] border-2 border-dotted border-gray-500 rounded-lg p-6 text-center bg-[#06020E] text-white"
+        className=" border-2 border-dotted border-gray-500 rounded-lg p-6 text-center bg-[#06020E] text-white"
         onDragOver={(e) => e.preventDefault()}
         onDrop={handleDrop}
       >
